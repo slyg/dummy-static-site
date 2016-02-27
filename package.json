@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "mkdir -p public && cp src/* public/"
   },
   "repository": {
     "type": "git",
