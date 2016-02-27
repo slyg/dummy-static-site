@@ -1,4 +1,6 @@
 app:
   build: .
-  ports:
-    - "8000:8000"
+  dockerfile: Dockerfile
+  volumes:
+    - ./public:/var/www/web/public
+  command: bash -c "npm install && npm run build"

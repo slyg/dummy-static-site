@@ -1,5 +1,4 @@
-FROM nginx
+FROM node:5.4.1
 
-COPY ./public /var/www/web
-
-COPY nginx.conf /etc/nginx/nginx.conf
+WORKDIR /var/www/web
+ADD . /var/www/web
