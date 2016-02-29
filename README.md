@@ -1,6 +1,8 @@
 ## Dummy static site...
 ...with deployment pipeline boilerplate
 
+[![Build Status](https://travis-ci.org/slyg/dummy-static-site.svg?branch=master)](https://travis-ci.org/slyg/dummy-static-site)
+
 This repo is a sandbox setting up a deployment pipeline using the following components:
 
 - **docker** to build and test app in a container
